@@ -1,0 +1,212 @@
+body{
+    background-color:honeydew;
+    overflow-x: hidden;
+  }
+  .header{
+    font-family:fantasy;
+    background-color:;
+  }
+  .nav-item:hover{
+    color:#fff;
+    background-color:bisque;
+    height:45px;
+  }
+  /* .nav-link{
+    color:grey;
+  }
+  .nav-link:hover{
+    color:aliceblue;
+    background-color:grey;
+  } */
+ /* Main Section */
+  .main{
+    background-image: url('img/s4.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100%;
+  }
+  .main h2{
+    font-weight:700;
+    font-size:4.4rem;
+    font-family:bernard mt condensed;
+    color:bisque;
+  }
+  .main h3{
+    font-family:andalus;
+    color:burlywood
+  }
+  .main h5{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height:1;
+    border-bottom:3px solid mediumaquamarine;
+    font-family:andalus;
+    color:burlywood
+  }
+   .bt1{
+    height:45px;
+    width:89px;
+    background-color:darksalmon;
+    color:white;
+    outline:none;
+    border:none;
+    font-weight:none;
+    border-radius:8px;
+  }
+  .bt1:hover{
+    color:white;
+    background-color:brown;
+  }
+  .bt2{
+    height:45px;
+    width:89px;
+    background-color:darksalmon;
+    color:white;
+    outline:none;
+    border:none;
+    font-weight:none;
+    border-radius:8px;
+  }
+  .bt2:hover{
+    color:white;
+    background-color:brown;
+  }   
+   /* About section */
+   .about img{
+              -webkit-box-shadow: 14px 15px 26px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 14px 15px 26px 0px rgba(0,0,0,0.75);
+      box-shadow: 14px 15px 26px 0px rgba(0,0,0,0.75);
+   }
+  .progress{
+    background-color: crimson;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items:center;
+    position:relative;
+    display:flex;
+    height:25px;
+    width:100%;
+  }
+  .pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius:50px;
+    background-color: black;
+    height:25px;
+    width:0;
+  }
+  .b1{
+    height:45px;
+    width:89px;
+    background-color:grey;
+    color:black;
+    outline:none;
+    border:none;
+    font-weight:none;
+    border-radius:8px;
+  }
+  .b1:hover{
+    color:grey;
+    background-color:black;
+  }   
+  .b2{
+    height:45px;
+    width:89px;
+    background-color:grey;
+    color:black;
+    outline:none;
+    border:none;
+    font-weight:none;
+    border-radius:8px;
+  }
+  .b2:hover{
+    color:grey;
+    background-color:black;
+  } 
+  
+  /* Services */
+  /* .card{
+    border:none;
+    background-color:cornsilk;
+    outline:none;
+                -webkit-box-shadow: 17px 16px 26px -12px rgba(0,0,0,0.75);
+        -moz-box-shadow: 17px 16px 26px -12px rgba(0,0,0,0.75);
+        box-shadow: 17px 16px 26px -12px rgba(0,0,0,0.75);
+  }
+  .card p{
+    color:grey;
+  }
+  .circle{
+    height:300px;
+    weight:70px;
+    background-color: moccasin;
+    color:darksalmon;
+    padding:52px;
+    display:inline-block;
+    margin-bottom:20px;
+    border-radius:50%;
+  }
+  .card:hover .circle{
+    background-color: darksalmon;
+    color:moccasin;
+    transition: 0.4s;
+  } */
+
+  /* Images */
+  /* Education */
+  .card:hover{
+    background-color:peachpuff;
+  }
+
+  @media (min-width: 576px){
+.modal-dialog {
+    max-width: 298px;
+    margin: 1.75rem auto;
+}
+  }
+  
+  /* Hobbies */
+  .control ul li{
+    list-style: none;
+    background-color:coral ;
+    display:inline-block;
+    color:brown;
+    cursor:pointer;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+  }
+
+  .col-lg-3:hover{
+    background:moccasin;
+    
+  /*Skills*/
+  
+
+
+  .item{
+    position: relative;
+  }
+  .item span{
+    position:absolute;
+    font-size:40px;
+    top:40%;
+    left:45%;
+    color:darkgray;
+    cursor:pointer;
+    opacity:0;
+  }
+  .item:hover span{
+    opacity:1;
+    transition:0.4s;
+  }
+ /* .footer-sec{
+    background-size:100%;
+    border:2px solid red;
+    padding:0px;
+    width:100%;
+  }*/
+  #footer
+  {
+    width:100%;
+    background-color: black;
+  }
